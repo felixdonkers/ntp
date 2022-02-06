@@ -26,3 +26,4 @@ while True:
             print(f"{ntp_errors[ntp_servers.index(s)]}/{i}: not able to get ntp time from {s}")
     time.sleep(60)
     print()
+    
