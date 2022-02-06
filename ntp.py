@@ -8,7 +8,7 @@ c = ntplib.NTPClient()
 ntp_servers = ["time.esa.int", "time.nist.gov", "pool.ntp.org", "ntp.time.nl", "time.google.com", "time.facebook.com", "time.apple.com", "time.windows.com"]
 ntp_errors = [0] * len(ntp_servers)
 ntp_ok = [0] * len(ntp_servers)
-ntp_duration = [0.0] * len(ntp_servers)
+ntp_duration = [0.0] * len(ntp_servers) 
 
 i = 0
 while True:
